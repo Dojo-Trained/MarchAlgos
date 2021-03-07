@@ -156,6 +156,19 @@ ________________________________________DEAD SPACE______________________________
 
 /* ZM Solution Algo#3
 ------------------------------------------------------------------------------------------------------------------------------
+First:
+
+function validate(password) {
+  return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/.test(password);
+}
+Second:
+
+function validate(password) {
+  return  /^[A-Za-z0-9]{6,}$/.test(password) &&
+        /[A-Z]+/           .test(password) &&
+        /[a-z]+/           .test(password) &&
+        /[0-9]+/           .test(password) ;
+}
 
 
 

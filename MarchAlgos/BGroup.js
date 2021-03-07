@@ -1,4 +1,4 @@
-/* _______________________AGROUP IS BASIC CONCEPTS LEADING UP TO MORE ADVANCED_________________
+/* _______________________B GROUP IS MORE ADVANCED THAN BASIC 13 _________________
 
 ______________________________ALGO #1________________________________________________
 
@@ -23,21 +23,7 @@ numbers.average(); // must return 3
 numbers.sum(); // must return 15
 numbers.even(); // must return [2, 4]
 numbers.odd(); // must return [1, 3, 5]
-_____________________________________________________________________________________________
-*/
-/* _________________________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
 
-
-
-
-
-
-
-
-
-/*
-/* _______________________CGroup Advanced Concepts_________________
-#2
 
 
 
@@ -57,53 +43,20 @@ You can see that they are case insensitive and disregards non alphanumeric chara
 
 NOTE: reverse/reverse! have been disabled for String/Array and reverse() for JS.
 
-_____________________________________________________________________________________________
-*/
-/* _________________________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
 
-/*
-_______________________________Comment/Suggestions/Refactor___________________________________
-
-________________________________________Coments________________________________________
-
-
-
-________________________________________Suggestions______________________________
-
-
-
-_____________________________________________________________________________________________
-
-LEAVE SPACE BETWEEN ENTRIES---------------------------------------------------------------------------------------
-________________________________________DEAD SPACE__________________________________________ */
-/*
-
-/* _______________________CGroup Advanced Concepts_________________
-#3
 
 
 
 ______________________________ALGO #3________________________________________________
+Description
+You need to write regex that will validate a password to make sure it meets the following criteria:
 
+At least six characters long
+contains a lowercase letter
+contains an uppercase letter
+contains a number
+Valid passwords will only be alphanumeric characters.
 
-_____________________________________________________________________________________________
+STACK OVERFLOW>>>>>   https://stackoverflow.com/questions/29465214/regex-password-validation-codewars_____________________________________________________________________________________________
 */
-/* _________________________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
 
-/*
-_______________________________Comment/Suggestions/Refactor___________________________________
-
-________________________________________Coments________________________________________
-
-
-
-________________________________________Suggestions______________________________
-
-
-
-
-
-_____________________________________________________________________________________________
-
-LEAVE SPACE BETWEEN ENTRIES---------------------------------------------------------------------------------------
-________________________________________DEAD SPACE__________________________________________ */
