@@ -44,11 +44,18 @@ function likes(names) {
 
 
 ______________________________ALGO # 2________________________________________________
+Write a function that accepts an array of 10 integers (between 0 and 9), 
+that returns a string of those numbers in the form of a phone number.
 
+Example:
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
+The returned format must be correct in order to complete this challenge.
+Don't forget the space after the closing parentheses!
 
 _____________________________________________________________________________________________
 */
-/* _________________________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
+
+/* ____________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
 
 /*
 _______________________________Comment/Suggestions/Refactor___________________________________
@@ -60,7 +67,6 @@ ________________________________________Coments_________________________________
 ________________________________________Suggestions______________________________
 
 
-________________________________________REFACTOR__________________________________
 
 
 _____________________________________________________________________________________________
@@ -75,6 +81,14 @@ ________________________________________DEAD SPACE______________________________
 
 
 ______________________________ALGO #3________________________________________________
+Description
+You need to write regex that will validate a password to make sure it meets the following criteria:
+
+At least six characters long
+contains a lowercase letter
+contains an uppercase letter
+contains a number
+Valid passwords will only be alphanumeric characters.
 
 
 _____________________________________________________________________________________________
@@ -84,6 +98,8 @@ ________________________________________________________________________________
 /*
 _______________________________Comment/Suggestions/Refactor___________________________________
 
+
+STACK OVERFLOW>>>>>   https://stackoverflow.com/questions/29465214/regex-password-validation-codewars
 ________________________________________Coments________________________________________
 
 
@@ -91,7 +107,7 @@ ________________________________________Coments_________________________________
 ________________________________________Suggestions______________________________
 
 
-________________________________________REFACTOR__________________________________
+
 
 
 _____________________________________________________________________________________________
