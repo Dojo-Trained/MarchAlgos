@@ -33,9 +33,6 @@ describe('example tests', function() {
 _____________________________________________________________________________________________
 */
 /* _________________________________COPY AND PASTE YOUR SOLUTION IN A GROUP SOLUTION FOLDER_______________________________ */
-function likes(names) {
-    // TODO
-}
 
 /* 
 /* _______________________CGroup Advanced Concepts_________________
@@ -76,20 +73,11 @@ ________________________________________DEAD SPACE______________________________
 /*
 
 /* _______________________CGroup Advanced Concepts_________________
-#3
-
-
-
 ______________________________ALGO #3________________________________________________
-Description
-You need to write regex that will validate a password to make sure it meets the following criteria:
 
-At least six characters long
-contains a lowercase letter
-contains an uppercase letter
-contains a number
-Valid passwords will only be alphanumeric characters.
+Write a function that returns a string in which firstname is swapped with last name.
 
+nameShuffler('john McClane'); => "McClane john"
 
 _____________________________________________________________________________________________
 */
@@ -99,7 +87,7 @@ ________________________________________________________________________________
 _______________________________Comment/Suggestions/Refactor___________________________________
 
 
-STACK OVERFLOW>>>>>   https://stackoverflow.com/questions/29465214/regex-password-validation-codewars
+
 ________________________________________Coments________________________________________
 
 
