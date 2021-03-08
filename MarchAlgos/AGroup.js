@@ -55,4 +55,31 @@ nameShuffler('john McClane'); => "McClane john"
 
 _____________________________________________________________________________________________
 
+
+________________________________ALGO # 4__________________________________________________
+Write a function that takes a string of parentheses, and determines if the order of the parentheses is valid. 
+The function should return true if the string is valid, and false if it's invalid.
+
+Examples
+"()"              =>  true
+")(()))"          =>  false
+"("               =>  false
+"(())((()())())"  =>  true
+Constraints
+0 <= input.length <= 100
+
+
+
+_____________________________________________________ALGO #5__________________________________________________________
+
+Your goal in this Algo is to implement a difference function, which subtracts one list from another and returns the result.
+
+It should remove all values from list a, which are present in list b.
+
+arrayDiff([1,2],[1]) == [2]
+If a value is present in b, all of its occurrences must be removed from the other:
+
+arrayDiff([1,2,2,2,3],[2]) == [1,3]
+
+
 */
