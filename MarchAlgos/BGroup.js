@@ -58,5 +58,89 @@ contains a number
 Valid passwords will only be alphanumeric characters.
 
 STACK OVERFLOW>>>>>   https://stackoverflow.com/questions/29465214/regex-password-validation-codewars_____________________________________________________________________________________________
+
+
+
+
+
+
+______________________________________________________________________ALGO #4 ________________________________________________________________________________________
+
+Increment and decrement functions
+In the venerable text editor Vim, you can position the cursor over a word and press the key combination Ctrl-A.
+
+Discussion
+If the word under the cursor is not a number, this will do nothing. If the word under the cursor is a number, it will be incremented by 1.
+
+If the word also contains characters that are not numbers, you should look for the first number in the word and increment it.
+
+Examples of using Ctrl-A:
+
+"hello"           → Ctrl-A →   "hello"
+"1"               → Ctrl-A →   "2"
+"199"             → Ctrl-A →   "200"
+".44!"            → Ctrl-A →   ".45!"
+"TurboCleaner099" → Ctrl-A →   "TurboCleaner100"
+"1become1"        → Ctrl-A →   "2become1"
+"test009it"       → Ctrl-A →   "test10it"
+A similar function can be used when placing the cursor over a word and pressing the key combination Ctrl-X. In this case the number will be decremented by 1.
+
+Examples of using Ctrl-X:
+
+"hello"           → Ctrl-X →   "hello"
+"2"               → Ctrl-X →   "1"
+"200"             → Ctrl-X →   "199"
+".46!"            → Ctrl-X →   ".45!"
+"TurboCleaner100" → Ctrl-X →   "TurboCleaner99"
+"3become1"        → Ctrl-X →   "2become1"
+"test00x"         → Ctrl-X →   "test-1x"
+Have a look at sample test cases for more edge cases.
+
+Assignment
+Write the functions control_a and control_x: each function takes in a word and returns the result of the incrementation/decrementation.
+
+
+
+_____________________________________________________ALGO #5_____________________________________________________________________________________________
+
+This is a coding Challenge I had in a javascript Udemy. 
+
+Mark and John are trying to compare their BMI (Body Mass Index), which is 
+calculated using the formula:
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg 
+and height in meter).
+
+
+Your tasks:
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both 
+versions)
+3. Create a Boolean variable 'markHigherBMI' containing information about 
+whether Mark has a higher BMI than John.
+Test data:
+§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 
+m tall.
+§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 
+m tall.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 */
+
+
 
